@@ -5,9 +5,8 @@ end
 
 def my_hash
   # return a valid hash with any key/value pair of your choice
-  hashin = Hash.new {
-    :key => "value"
-  }
+  hashin = Hash.new
+  hashin[:yes] = "no"
 end
 
 def pioneer
